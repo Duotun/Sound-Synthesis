@@ -22,7 +22,7 @@ void solve_2nd_1d(Eigen::MatrixXd &S,double &force, std::vector<double> &frequen
 	//std::cout << position << std::endl;
 	//std::cout << position << std::endl;
 	//double  amplitude = (position - b /w_2);
-	double amplitude = b / w_2;
+	double amplitude = b / m->mass/w_2;
 	//std::cout << "amplitude: " <<amplitude << std::endl;
 	amp.push_back(amplitude);  //one frequency is added
 }
