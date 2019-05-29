@@ -1,0 +1,11 @@
+x=linspace(0,100);
+y=-0.01*x+1;
+plot(x,y,'Color',[1,0.1,0.9]);
+set(gca,'ticklength',[0,0]);
+set(0,'DefaultAxesFontSize',16);
+%set(gca,'xticklength',20);
+title('\fontsize{52}2D Scene');
+xlabel('\fontsize{52}Distance From the Viewer(m)');
+%set(gca,'fontsize',32);
+ylabel('\fontsize{52}Volume');
+legend('\fontsize{30}min distance=5m, max distance=300m, slope=0.01');
